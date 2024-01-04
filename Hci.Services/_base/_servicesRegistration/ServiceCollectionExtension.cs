@@ -11,7 +11,7 @@ public static class ServiceCollectionExtension
     /// <param name="services">Services collection</param>
     /// <param name="connectionString">Connection String</param>
     /// <returns></returns>
-    public static IServiceCollection AddHealthCareInformedPersistenceCollection(this IServiceCollection services, string connectionString)
+    public static IServiceCollection AddHciPersistenceCollection(this IServiceCollection services, string connectionString)
     {
         services.AddDbContext<DatabaseContext>(options => options.UseSqlServer(connectionString),
             ServiceLifetime.Transient);

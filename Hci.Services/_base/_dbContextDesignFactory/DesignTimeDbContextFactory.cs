@@ -10,7 +10,7 @@ internal class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<Database
     public DatabaseContext CreateDbContext(string[] args)
     {
         IConfigurationRoot configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory())
-            .AddJsonFile(Directory.GetCurrentDirectory() + "/../HealthCareInformed.WebApi/appsettings.json").Build();
+            .AddJsonFile(Directory.GetCurrentDirectory() + "/../Hci.WebApi/appsettings.json").Build();
         var connectionString = configuration.GetSection("Settings:ConnectionStrings:Databases:Sql").Value;
 
         var builder = new DbContextOptionsBuilder<DatabaseContext>();

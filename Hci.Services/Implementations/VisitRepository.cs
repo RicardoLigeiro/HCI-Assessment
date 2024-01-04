@@ -24,6 +24,8 @@ internal sealed class VisitRepository : BaseRepository, IVisitRepository
     {
         // for simplifying we are not implement counter's or pagination
         // we are also not returning the user that created the record, etc
+        // this just to show the call, we actually return all records here, it's just to show a search
+        // the variables are null
 
         return await (from visit in Context.Visits
                       join hospital in Context.Hospitals on visit.HospitalId equals hospital.HospitalId
