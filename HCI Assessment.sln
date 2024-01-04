@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hci.Models", "Hci.Models\Hci.Models.csproj", "{BDECFBDE-AE65-413A-A7D8-EB0748FDAA05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hci.Models", "Hci.Models\Hci.Models.csproj", "{BDECFBDE-AE65-413A-A7D8-EB0748FDAA05}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{4E0C18D4-30F3-42C0-8081-FFEFBB6F1343}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Percistence", "Percistence", "{0EC189FF-5820-4FFD-B32C-B1ED186FEE5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hci.Persistence", "Hci.Persistence\Hci.Persistence.csproj", "{AAAABBC1-BB88-424D-8183-057FB9EEE1F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{BDECFBDE-AE65-413A-A7D8-EB0748FDAA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDECFBDE-AE65-413A-A7D8-EB0748FDAA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDECFBDE-AE65-413A-A7D8-EB0748FDAA05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAAABBC1-BB88-424D-8183-057FB9EEE1F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAAABBC1-BB88-424D-8183-057FB9EEE1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAAABBC1-BB88-424D-8183-057FB9EEE1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAAABBC1-BB88-424D-8183-057FB9EEE1F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BDECFBDE-AE65-413A-A7D8-EB0748FDAA05} = {4E0C18D4-30F3-42C0-8081-FFEFBB6F1343}
+		{AAAABBC1-BB88-424D-8183-057FB9EEE1F9} = {0EC189FF-5820-4FFD-B32C-B1ED186FEE5B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5DF7AD51-808E-4112-9CAC-D9DC7449DCAA}
